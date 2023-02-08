@@ -1,0 +1,76 @@
+.list {
+  margin-top: 50px;
+}
+
+.listItem {
+  border: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.listBoxSpan {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.listItemSpan {
+  margin-right: 10px;
+}
+
+.listItemInput {
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-right: 30px;
+  padding: 5px 10px;
+}
+
+.listItemInputEdit {
+  box-shadow: 0px 0px 10px 3px rgb(60 112 247 / 20%);
+}
+
+.listItemInput:focus {
+  border: none;
+  outline: none;
+}
+
+.buttonsBox {
+
+}
+
+.button {
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.buttonEdit {
+  /* box-shadow: 0px 0px 8px 4px rgb(60 112 247 / 40%); */
+  box-shadow: 0px 0px 10px 3px rgb(60 112 247 / 20%);
+}
+
+.buttonEdit:hover {
+  /* box-shadow: 0px 0px 8px 4px rgb(60 112 247 / 40%); */
+  box-shadow: 0px 0px 10px 3px rgb(60 112 247 / 20%);
+}
+
+.buttonsImg {
+  display: block;
+  height: 20px;
+}
+
+
+.noPosts {
+  margin: 50px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-shadow: 2px 2px 3px #74747482;
+  color: #3c70f7;
+}
